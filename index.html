@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- escribe el titulo de la pagina -->
+  <title>networkinstallation</title>
+  <link rel="icon" href="imagen\logo\logo  pc 2.png" />
+
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="bootstrap/icons/bootstrap-icons.css">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="fixed-top bcolor01">
+    <div class="row">
+      <div class="col-2 centrar">
+        <!-- logo -->
+        <img src="imagen\logo\logo  pc 2.png" style="width:50%; height: 100px; object-fit:cover;" class="logo bcolor01">
+      </div>
+
+      <!-- descripcion -->
+      <div class="col contrar">
+        <h5 class="text-center">(Expertos en Infraestructura y Productos de Redes)</h5>
+      </div>
+
+      <!-- redes sociales -->
+      <div class="col-2 fcolor01 text-center d-flex align-items-center justify-content-center">
+        <i class="bi bi-facebook me-2"></i>
+        <i class="bi bi-instagram me-2"></i>
+        <i class="bi bi-youtube me-2"></i>
+      </div>
+    </div>
+
+    <!-- NAV -->
+    <div class="row">
+      <nav class="navbar border-top border-1 navbar-expand-lg fcolor01 bg-light">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link" href="#id01">Carrusel</a></li>
+            <li class="nav-item"><a class="nav-link" href="#id02">Misión</a></li>
+            <li class="nav-item"><a class="nav-link" href="#id03">Visión</a></li>
+            <li class="nav-item"><a class="nav-link" href="#id04">servicios</a></li>
+            <li class="nav-item"><a class="nav-link" href="#id05">Productos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#id07">Formulario</a></li>
+          </ul>
+
+          <!-- Buscador -->
+          <form class="d-flex" role="search" onsubmit="buscar(event)">
+            <input id="campoBusqueda" class="form-control ms-1 me-1" type="search" placeholder="Buscar..."
+              aria-label="Buscar">
+            <button class="btn btn-outline-success bcolor01" type="submit">Buscar</button>
+          </form>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- CONTENIDO -->
+  <div class="container borde">
+    <!-- Carrusel -->
+    <h1>Carrusel</h1>
+    <section id="id01" class="row alto carrusel">
+      <div class="col-12">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+              class="active"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-inner bcolor01">
+
+              <div class="carousel-item active">
+                <img src="imagen\carrucel\imag1.png" class="w-50 d-block mx-auto">
+              </div>
+              <div class="carousel-item">
+                <img src="imagen/carrucel/imag2.jpg" class="w-50 d-block mx-auto">
+              </div>
+              <div class="carousel-item">
+                <img src="imagen/carrucel/imag3.png" class="w-50 d-block mx-auto">
+              </div>
+              <div class="carousel-item">
+                <img src="imagen\carrucel\imag4.jpg" class="w-50 d-block mx-auto">
+              </div>
+              <div class="carousel-item">
+                <img src="imagen/carrucel/imag5.jpg" class="w-50 d-block mx-auto">
+              </div>
+            </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Misión -->
+    <h1>Misión</h1>
+    <section id="id02" class="row alto">
+      <div class="col text-center">
+        <i class="bi bi-shield-lock-fill icon-mis-vis"></i>
+        <h5>1-</h5>
+        <p>Brindar soluciones de instalación y mantenimiento de redes seguras, estables y de alta calidad, garantizando
+          conectividad eficiente para nuestros clientes mediante personal altamente capacitado y tecnología actualizada.
+        </p>
+      </div>
+      <div class="col text-center">
+        <i class="bi bi-people-fill icon-mis-vis"></i>
+        <h5>2-</h5>
+        <p>Ofrecer servicios integrales de infraestructura de redes que se adapten a las necesidades de cada cliente,
+          asegurando tiempos de respuesta rápidos, soporte confiable y una experiencia de atención excepcional.</p>
+      </div>
+      <div class="col text-center">
+        <i class="bi bi-diagram-3-fill icon-mis-vis"></i>
+        <h5>3-</h5>
+        <p>Diseñar e implementar redes modernas y escalables, utilizando estándares internacionales y herramientas de
+          vanguardia para optimizar el rendimiento y la comunicación en empresas y hogares.</p>
+      </div>
+    </section>
+
+
+    <!-- Visión -->
+    <h1>Visión</h1>
+    <section id="id03" class="row alto">
+      <div class="col text-center">
+        <i class="bi bi-trophy-fill icon-mis-vis"></i>
+        <h5>1-</h5>
+        <p>Ser la empresa líder en instalación y gestión de redes a nivel regional, reconocida por la calidad,
+          eficiencia y confiabilidad de nuestros servicios.
+        </p>
+      </div>
+      <div class="col text-center">
+        <i class="bi bi-cpu-fill icon-mis-vis"></i>
+        <h5>2-</h5>
+        <p>Convertirnos en un referente en soluciones de conectividad inteligente, integrando tecnologías emergentes
+          como IoT, fibra óptica avanzada y redes inalámbricas de última generación.</p>
+      </div>
+      <div class="col text-center">
+        <i class="bi bi-globe2 icon-mis-vis"></i>
+        <h5>3-</h5>
+        <p>Ampliar nuestra presencia en nuevos mercados manteniendo prácticas sostenibles, fomentando la innovación y
+          fortaleciendo alianzas estratégicas para ofrecer redes más rápidas, seguras y responsables con el entorno.</p>
+      </div>
+    </section>
+
+
+    <!-- Productos -->
+
+    <h1>servicios</h1>
+    <section id="id04" class="row grande">
+
+      <!-- Producto 1 -->
+      <div class="col-12 col-md-4 col-lg-3 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="imagen\dd\prod1.png" style="width:100%; height:125px; object-fit:cover;" alt="Producto 1"
+            class="icon-forms">
+
+          <div class="card-body text-center">
+            <h5 class="card-title">🛠️Instalación de cableado estructurado completo🔨</h5>
+            <p class="card-text">Tendido de cables, terminaciones (RJ45), patch panel, pruebas y certificación de la red
+              dentro de una oficina o local.</p>
+            <a href="#" class="btn btn-primary btn-sm">$1.200.000 – $1.800.000</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 2 -->
+      <div class="col-12 col-md-4 col-lg-3 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="imagen\dd\prod2.png" style="width:100%; height:125px; object-fit:cover;" alt="Producto 1"
+            class="icon-forms">
+          <div class="card-body text-center">
+            <h5 class="card-title"> 📊Despliegue y diseño de red empresarial📈</h5>
+            <p class="card-text">Instalación de red más completa incluyendo switches, routers, puntos de acceso y
+              estructura de red organizada.</p>
+            <a href="#" class="btn btn-primary btn-sm">$5.000.000 – $10.000.000 </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 3 -->
+      <div class="col-12 col-md-4 col-lg-3 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="imagen\dd\prod3.png" style="width:100%; height:125px; object-fit:cover;" alt="Producto 1"
+            class="icon-forms">
+          <div class="card-body text-center">
+            <h5 class="card-title"> 🛜Instalación de puntos de acceso Wi-Fi + red cableada 📶</h5>
+            <p class="card-text"> Instalación y configuración de puntos de acceso inalámbrico (AP) para cobertura Wi-Fi
+              junto con cableado estructurado.</p>
+            <a href="#" class="btn btn-primary btn-sm">$150.000 – $300.000</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 4 -->
+      <div class="col-12 col-md-4 col-lg-3 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="imagen\dd\prod4.png" style="width:100%; height:125px; object-fit:cover;" alt="Producto 1"
+            class="icon-forms">
+          <div class="card-body text-center">
+            <h5 class="card-title">🔌Pruebas, diagnóstico y mantenimiento de red🛡️</h5>
+            <p class="card-text">Revisión del estado de una red existente, diagnóstico y solución de fallas, pruebas de
+              rendimiento.</p>
+            <a href="#" class="btn btn-primary btn-sm"> $100.000 – $300.000</a>
+          </div>
+        </div>
+      </div>
+
+      <h1>productos</h1>
+      <section id="id05" class="row medio">
+
+
+        <!-- Producto 5 -->
+        <div class="col-12 col-md-4 col-lg-3 mb-4">
+          <div class="card h-100 shadow-sm">
+            <img src="imagen\dd\prod5.png" style="width:100%; height:125px; object-fit:cover;" alt="Producto 1"
+              class="icon-forms">
+
+            <div class="card-body text-center">
+              <h5 class="card-title">🔧Kit de herramientas de red 9 en 1🔗</h5>
+              <p class="card-text">Un kit completo de herramientas para instalaciones y mantenimiento de cables de red
+                (RJ45, RJ11). Ideal para técnicos o instalaciones propias.</p>
+              <a href="#" class="btn btn-primary btn-sm"> $95.900</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Producto 6 -->
+        <div class="col-12 col-md-4 col-lg-3 mb-4">
+          <div class="card h-100 shadow-sm">
+            <img src="imagen\dd\prod6.png" style="width:100%; height:125px; object-fit:cover;" alt="Producto 1"
+              class="icon-forms">
+            <div class="card-body text-center">
+              <h5 class="card-title">🛠️Kit de herramientas de red Gaobige🔧</h5>
+              <p class="card-text">Kit más avanzado para cableado Cat5/Cat5e/Cat6, incluye varias herramientas
+                especializadas.</p>
+              <a href="#" class="btn btn-primary btn-sm">$146.765</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Producto 7 -->
+        <div class="col-12 col-md-4 col-lg-3 mb-4">
+          <div class="card h-100 shadow-sm">
+            <img src="imagen\dd\prod7.png" style="width:100%; height:125px; object-fit:cover;" alt="Producto 1"
+              class="icon-forms">
+            <div class="card-body text-center">
+              <h5 class="card-title"> ⚡Jack RJ45 Cat 6A UTP ⚙️</h5>
+              <p class="card-text">Conector RJ45 categoría 6A para cableado estructurado de red que permite velocidades
+                altas y buena fiabilidad.</p>
+              <a href="#" class="btn btn-primary btn-sm"> $32.900 </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Producto 8 -->
+        <div class="col-12 col-md-4 col-lg-3 mb-4">
+          <div class="card h-100 shadow-sm">
+            <img src="imagen\dd\prod8.png" style="width:100%; height:125px; object-fit:cover;" alt="Producto 1"
+              class="icon-forms">
+            <div class="card-body text-center">
+              <h5 class="card-title">✂️Herramienta ponchadora HT‑314B 📡</h5>
+              <p class="card-text">Herramienta básica y económica para ponchar conectores RJ45 en cables de red.</p>
+              <a href="#" class="btn btn-primary btn-sm"> $28.000</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Formulario -->
+         
+        <section id="id07" class="row">
+          <h1>Formulario</h1>
+          
+
+
+          <div class="container mt-4">
+
+            <form id="formContacto" class="mb-4">
+              <input type="hidden" id="id">
+
+              <div class="row">
+                <div class="col-md-6 mb-2">
+                  <label>Nombre</label>
+                  <input type="text" id="nombre" class="form-control" required>
+                </div>
+
+                <div class="col-md-6 mb-2">
+                  <label>Apellido</label>
+                  <input type="text" id="apellido" class="form-control" required>
+                </div>
+
+                <div class="col-md-6 mb-2">
+                  <label>Celular</label>
+                  <input type="text" id="celular" class="form-control" required>
+                </div>
+
+                <div class="col-md-6 mb-2">
+                  <label>Correo</label>
+                  <input type="email" id="correo" class="form-control" required>
+                </div>
+              </div>
+              <div class="row text-center">
+
+                <div class="col">
+
+
+
+                  <button class="btn btn-primary">
+                    <i class="bi bi-floppy text-light  icon-forms" data-bs-toggle="tooltip" data-bs-title="Guardar"></i>
+
+                  </button>
+
+
+                </div>
+                <div class="col">
+                  <button type="reset" class="btn btn-secondary" onclick="limpiar()">
+                    <i class="bi bi-eraser text-light  icon-forms" data-bs-toggle="tooltip" data-bs-title="Limpiar"></i>
+
+
+                  </button>
+                </div>
+                <div class="col">
+
+                  <button type="button" class="btn btn-success" id="btnExportar">
+                    <i class="bi bi-download text-light  icon-forms" data-bs-toggle="tooltip"
+                      data-bs-title="Exportar"></i>
+                  </button>
+                </div>
+                <div class="col">
+
+                  <input type="file" id="fileInput" accept="application/json" style="display:none;">
+                  <button type="button" class="btn btn-warning" id="btnCargar">
+
+                    <i class="bi bi-upload text-light  icon-forms" data-bs-toggle="tooltip" data-bs-title="Cargar"></i>
+
+                  </button>
+
+                </div>
+              </div>
+
+            </form>
+
+            <hr>
+
+          <h4>Contactos Guardados</h4>
+
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>Nombre</th>
+                  <th>Apellido</th>
+                  <th>Celular</th>
+                  <th>Correo</th>
+                  <th>Acciones</th>
+                </tr>
+              </thead>
+              <tbody id="tablaDatos"></tbody>
+            </table>
+
+          </div>
+          <!-- SCRIPTS -->
+          <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+          <script src="js/funciones.js"></script>
+          <footer class="text-center p-3 mt-5" style="background-color : rgb(82, 175, 189); font-size: 0.9rem;">
+            <hr>
+            <p class="mb-0">
+              Sitio web desarrollado por Johan Felipe Rendon Cocoma-Yeni Roosmary Obando-Tatiana suarez: <strong>creado
+                por JTRTeam ಠ⁠_⁠ಠ</strong> SENA
+              12/12/2025
+            </p>
+          </footer>
+          <script>
+            function buscar(event) {
+              event.preventDefault(); // Evita recargar la página
+
+              let texto = document.getElementById("campoBusqueda").value.toLowerCase().trim();
+
+              if (texto === "") {
+                alert("Ingresa un texto para buscar");
+                return;
+              }
+
+              // Buscar en todos los elementos importantes
+              let secciones = document.querySelectorAll("h5, p, .card-title, .card-text");
+
+              let encontrado = false;
+
+              secciones.forEach(elemento => {
+                elemento.style.backgroundColor = "transparent"; // Limpia búsqueda anterior
+
+                if (elemento.textContent.toLowerCase().includes(texto)) {
+                  elemento.style.backgroundColor = "yellow";  // Resaltar coincidencia
+                  elemento.scrollIntoView({ behavior: "smooth", block: "center" });
+                  encontrado = true;
+                }
+              });
+
+              if (!encontrado) {
+                alert("No se encontró ninguna coincidencia.");
+              }
+            }
+          </script>
+
+</body>
+
+</html>
+</div>
+</section>
